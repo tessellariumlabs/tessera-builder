@@ -1,0 +1,44 @@
+{
+  "receipt_id": "build_candidate_disclosure_critic_2026_06_27_001",
+  "receipt_type": "synthetic_disclosure_critic_receipt",
+  "status": "synthetic_noncanonical",
+  "authority_ceiling": "candidate_only",
+  "input_packet": "examples/build_candidate_packet.md",
+  "source_repository": "tessellariumlabs/ontologica_os",
+  "landing_repository": "tessellariumlabs/tessera-builder",
+  "target_repository": "tessera",
+  "required_fields": {
+    "proof_packet": "present",
+    "disclosure_critic": "present",
+    "protected_terms_review": "present",
+    "source_repository": "declared",
+    "target_repository": "declared",
+    "human_review": "required",
+    "final_gate": "hold / review / deny"
+  },
+  "protected_terms_review": {
+    "private_implementation_detected": false,
+    "private_component_protocols_detected": false,
+    "real_manifests_detected": false,
+    "real_receipts_detected": false,
+    "actuator_paths_detected": false,
+    "hardware_authority_paths_detected": false,
+    "automatic_movement_into_tessera_detected": false,
+    "production_release_process_detected": false
+  },
+  "authority_denials": {
+    "hardware_authority": "not_granted",
+    "actuator_authority": "not_granted",
+    "production_authority": "not_granted",
+    "merge_authority": "not_granted",
+    "release_authority": "not_granted",
+    "runtime_authority": "not_granted"
+  },
+  "critic_notes": [
+    "Synthetic critic receipt only; no private component or hardware inspection occurred.",
+    "The packet names a builder intake posture without exposing physical control machinery.",
+    "Any request for component protocols, actuator paths, or hardware authority must hold for rights-holder review."
+  ],
+  "decision": "hold_for_review",
+  "final_gate": "hold_for_review"
+}
