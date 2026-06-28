@@ -1,0 +1,22 @@
+{
+  "receipt_id": "build_candidate_review_2026_06_27_001",
+  "receipt_type": "synthetic_disclosure_critic_receipt",
+  "status": "synthetic_noncanonical",
+  "authority_ceiling": "candidate_only",
+  "primary_receipt": "sample_outputs/reviews/build_candidate_disclosure_critic_receipt.json",
+  "input_packet": "examples/build_candidate_packet.md",
+  "source_repository": "tessellariumlabs/ontologica_os",
+  "landing_repository": "tessellariumlabs/tessera-builder",
+  "target_repository": "tessera",
+  "proof_packet": "present",
+  "disclosure_critic": "present",
+  "protected_terms_review": "present",
+  "human_review": "required",
+  "protected_material_detected": false,
+  "hardware_authority": "not_granted",
+  "actuator_authority": "not_granted",
+  "production_authority": "not_granted",
+  "merge_authority": "not_granted",
+  "decision": "hold_for_review",
+  "final_gate": "hold_for_review"
+}
